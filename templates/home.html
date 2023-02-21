@@ -12,12 +12,16 @@
       width: 100%;
       object-fit: cover;
     }
+    #bk{
+    background-image: linear-gradient(135deg, white, lightgray, gray); 
+    }
   </style>
-  <body>
+  <body id = "bk">
   <div class="container">
       <h1 class = "text-center"> Mahshook's e-space </h1>
       <img class = "img-fluid" id = "banner" src = "https://personal-website-1.mahshook.repl.co/static/wP2.jpg">
-      <p class = "lead">I am an aspiring physicist studying high-fidelity qubit manipulation techniques. My aim is to improve the multiple qubit gate fidelity, which is essential in building a fault-tolerant quantum computer. It is high time we started looking for qubit architectures and models that could potentially support fault tolerance. A fault tolerant quantum computer can use error correction schemes to work through computational errors through a process called computational redundancy. To perform computational redundancy, quantum gate operations must be performed with very high fidelity. But conventional qubits, especially noisy intermediate scale quantum devices, use architectures that have worryingly low gate fidelities. These require specialized read-out error mitigation to demonstrate quantum advantage, which is still under study. I inspect the possibilities of better qubit candidates in the neutral atom-based qubit domain that could potentially support high-fidelity multiple qubit gate operations. </p>
+      <p id = "main">I am an aspiring physicist studying high-fidelity qubit manipulation techniques. My aim is to improve the multiple qubit gate fidelity, which is essential in building a fault-tolerant quantum computer. It is high time we started looking for qubit architectures and models that could potentially support fault tolerance. A fault tolerant quantum computer can use error correction schemes to work through computational errors through a process called computational redundancy. </p>
+    <p id = "sidebar"> To perform computational redundancy, quantum gate operations must be performed with very high fidelity. But conventional qubits, especially noisy intermediate scale quantum devices, use architectures that have worryingly low gate fidelities. These require specialized read-out error mitigation to demonstrate quantum advantage, which is still under study. I inspect the possibilities of better qubit candidates in the neutral atom-based qubit domain that could potentially support high-fidelity multiple qubit gate operations.</p>
       <h4 class = "text-center">Learn more about my Research here</h4>
     <div class = "text-center mb-2">
       <button class = "btn btn-primary btn-lg">Research</button>
